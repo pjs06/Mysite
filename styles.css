@@ -1,0 +1,136 @@
+
+h1{
+  color:#0062ff;
+  font-family: Sacramento,cursive;
+  padding-top: 50px;
+  font-size: 5.625rem;
+  /* In CSS font size 100%=16px=1em=1rem */
+  margin: 0; /* in CSS when we assign value to a margin command it will apply to all the margins and if we want to operate on specific margin then we use margin specific commands*/
+
+  }
+/* Difference between rem and em is that
+In em the size of the parent gets added to the size of the child so the size increases more than expected
+Whereas in rem the size of the child remains same as we specified  */
+body{
+  background-color: rgb(242, 251, 255);
+  font-size: 1.5rem;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  /*in the font family tag we first write the font which we want to show first but we can add more fonts separated by comma in case someone doesn't have the font that we wanted them to see in*/
+
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color:#0062ff;
+  font-weight: normal;
+  /* Font weight is used to change the degree of boldness */
+  padding: 30px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:rgb(3, 144, 252);
+}
+hr{
+  width: 5%;
+  border-style: dotted;
+  border-width: 6px;
+  color: grey;
+  margin: 100px auto 100px auto;
+  border-bottom: none
+}
+a{
+  color:rgb(3, 144, 252);
+  font-size: 1rem;
+  margin: 10px;
+  text-decoration: none;
+}
+a:hover{
+  color: #ffffff;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+.name{
+  padding: 30px;
+}
+.top{
+  background-color: rgb(173, 229, 247);
+  padding-top: 100px;
+}
+.cs{
+  text-decoration: underline;
+}
+/* diference between diplay: none; and visibility:hidden
+display: none totally removes the element from the screen
+visibility: hidden will just hide the element and keep the space as if the element was already present there */
+.bottom-cloud{
+  position: absolute;
+  left:300px;
+
+}
+.top-cloud{
+  position: relative;
+  left: 250px;
+}
+.Profile-picture{
+height: 35%;
+width: 25%;
+margin-top: 50px;
+}
+
+.skill-row{
+  width:70%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-1{
+  width:50%;
+  height: 100%;
+  margin-right: 30px;
+  float: left; /*it means that the image will float on the left side of the text*/
+}
+.cricket{
+  height:50%;
+  width:50%;
+  margin-left:  30px;
+  float: right;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4,  #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4,  #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4,  #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4,  #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4,  #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.bottom-container{
+  background-color:rgb(173, 229, 247);
+  margin: 0;
+}
+.copyright{
+  margin: 0;
+  padding-bottom: 10px;
+  color:  #EAF6F6;
+}
